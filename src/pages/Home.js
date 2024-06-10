@@ -10,7 +10,7 @@ const Home = () => {
             <li class="content-list__item">
             <h2 class="title-2">Frontend</h2>
               <p>
-                JavaScript, TypeScript, ReactJS, Redux, HTML, CSS, CSS-in-JS, BootStrap
+                JavaScript, TypeScript, ReactJS, Redux, HTML, CSS, BootStrap
               </p>
               <h2 class="title-2">Backend</h2>
               <p>Java, Spring Boot, Spring Security, Hibernate, MySQL, Postgres</p>
