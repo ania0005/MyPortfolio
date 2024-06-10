@@ -21,7 +21,7 @@
     "deploy": "gh-pages -d build"
   },
 
- "homepage": "https://ania0005.github.io/MyPortfolio",
+ "homepage": "https://ania0005.github.io",
 
   "eslintConfig": {
     "extends": [
