@@ -19,14 +19,16 @@ const projects = [
         skills: 'React, Node.js',
         img: project02,
         imgBig: project02Big,
-        gitHubLink: "https://github.com/ania0005/Online-cake-shop"
+        gitHubLink: "https://github.com/ania0005/Online-cake-shop",
+        siteLink: "https://ania0005.github.io/Online-cake-shop/"
     },
     {
         title: 'My portfolio',
         skills: 'React, Node.js, MongoDB',
         img: project03,
         imgBig: project03Big,
-        gitHubLink: "https://github.com/ania0005"
+        gitHubLink: "https://github.com/ania0005",
+        siteLink: "https://ania0005.github.io/MyPortfolio/"
     }
 ];
 export {projects};
