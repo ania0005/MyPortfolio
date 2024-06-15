@@ -8,7 +8,7 @@ import project03Big from "./../../img/projects/03-big.jpg";
 const projects = [
     {
         title: 'Wishlist',
-        skills: 'Java Script, React',
+        skills: 'TypeScript, JavaScript, Java, Spring, MySQL, React',
         img: project01,
         imgBig: project01Big,
         gitHubLink: "https://github.com/ania0005/Wishlist_project" ,
@@ -16,7 +16,7 @@ const projects = [
     }, 
     {
         title: 'Cake Shop',
-        skills: 'React, Node.js',
+        skills: 'TypeScript, JavaScript, React, HTML, CSS',
         img: project02,
         imgBig: project02Big,
         gitHubLink: "https://github.com/ania0005/Online-cake-shop",
@@ -24,7 +24,7 @@ const projects = [
     },
     {
         title: 'My portfolio',
-        skills: 'React, Node.js, MongoDB',
+        skills: 'JavaScript, React, HTML, CSS',
         img: project03,
         imgBig: project03Big,
         gitHubLink: "https://github.com/ania0005",
