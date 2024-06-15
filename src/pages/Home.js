@@ -1,4 +1,6 @@
 import Header from "./../components/header/Header";
+import Contacts from "./Contacts";
+import Projects from "./Projects";
 
 const Home = () => {
   return (
@@ -19,6 +21,8 @@ const Home = () => {
           </ul>
         </div>
       </main>
+      <Projects />
+      <Contacts />
     </>
   );
 };

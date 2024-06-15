@@ -1,5 +1,7 @@
-import Project from "../components/project/Project";
-import { projects } from "../components/helpers/ProjectList";
+// pages/Projects.jsx
+import React from 'react';
+import Project from '../components/project/Project';
+import { projects } from '../components/helpers/ProjectList';
 
 const Projects = () => {
   return (
@@ -7,15 +9,16 @@ const Projects = () => {
       <div className="container">
         <h2 className="title-1">Projects</h2>
         <ul className="projects">
-          {projects.map((project, index) => {
-            return (
-              <Project 
-              key={index} 
-              title={project.title} 
+          {projects.map((project, index) => (
+            <Project
+              key={index}
+              title={project.title}
               img={project.img}
-              index={index} />
-            );
-          })}
+              skills={project.skills}
+              siteLink={project.siteLink}
+              gitHubLink={project.gitHubLink}
+            />
+          ))}
         </ul>
       </div>
     </main>
@@ -23,3 +26,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
