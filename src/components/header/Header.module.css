@@ -1,0 +1,135 @@
+.header {
+	padding: 40px 0;
+	min-height: 400px;
+	display: flex;
+	justify-content: end;
+	align-items: center;
+	background-color: var(--header-bg);
+	background-image: url('./../../img/Phone3.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center center;
+	color: var(--header-text);
+	text-align: end;
+  }
+  
+  .headerWrapper {
+	padding: 0 15px;
+	max-width: 800px;
+	margin-right: 400px;
+  }
+  
+  .headerTitle {
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.4;
+	transition: color 0.3s ease;
+  }
+  
+  .headerTitle strong {
+	font-size: 40px;
+	font-weight: 700;
+  }
+  
+  .headerTitle em {
+	font-style: normal;
+	color: var(--accent);
+  }
+  
+  .headerText {
+	margin-bottom: 40px;
+	font-size: 18px;
+	line-height: 1.333;
+  }
+  
+  .headerText p + p {
+	margin-top: 0.5em;
+  }
+  
+  .btn {
+	padding: 10px 20px;
+	background-color:#5c62ec;
+	color: var(--btn-text);
+	text-decoration: none;
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+	background-color: #2b32f8;
+  }
+  
+  /* Media queries for responsive design */
+  @media (max-width: 1024px) {
+	.header {
+	  background-size: cover;
+	}
+	
+	.headerWrapper {
+	  margin-right: 200px;
+	}
+	.headerTitle strong em {
+		color: white;
+	  }
+  }
+  
+  @media (max-width: 768px) {
+	.header {
+	  text-align: center;
+	  justify-content: center;
+	}
+	
+	.headerWrapper {
+	  margin-right: 0;
+	}
+  
+	.headerTitle {
+	  font-size: 18px;
+	}
+  
+	.headerTitle strong {
+	  font-size: 32px;
+	}
+  
+	.headerText {
+	  font-size: 16px;
+	}
+  
+	.headerTitle strong em {
+	  color: white;
+	}
+  }
+  
+  @media (max-width: 480px) {
+	.header {
+	  padding: 20px 0;
+	  min-height: 300px;
+	}
+	
+	.headerWrapper {
+	  padding: 0 10px;
+	}
+  
+	.headerTitle {
+	  font-size: 16px;
+	}
+  
+	.headerTitle strong {
+	  font-size: 28px;
+	}
+  
+	.headerTitle strong em {
+	  color: white;
+	}
+  
+	.headerText {
+	  font-size: 14px;
+	}
+  
+	.btn {
+	  padding: 8px 16px;
+	}
+  }
+  
+  

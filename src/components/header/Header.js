@@ -1,24 +1,24 @@
-import "./Style.css";
+import styles from "./Header.module.css";
 import resume from "./Lebenslauf.pdf";
 
 const Header = () => {
   return (
-    <header className="header">
-      <div className="header__wrapper">
-        <h1 className="header__title">
+    <header className={styles.header}>
+      <div className={styles.headerWrapper}>
+        <h1 className={styles.headerTitle}>
           <strong>
-            Hi, my name is <em>Tania</em>
+            <em>Tania Samoilenko</em>
           </strong>
           <br />a full stack / frontend developer
         </h1>
-        <div className="header__text">
+        <div className={styles.headerText}>
           <p>with passion for learning and creating.</p>
         </div>
-        <a href={resume} className="btn">Download CV en/de</a>
-        
+        <a href={resume} className={styles.btn}>Download CV en/de</a>
       </div>
     </header>
   );
 };
 
 export default Header;
+
