@@ -4,7 +4,7 @@ const BtnSite = ({link}) => {
     return ( 
 <a href={link} target="_blank" rel="noreferrer" className="btn-outline">
                     <img src={siteIcon} alt="" />
-                    Wishlist site
+                    Website
                 </a>
      );
 }
