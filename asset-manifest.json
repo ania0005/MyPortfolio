@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.07f4bf31.css",
-    "main.js": "/MyPortfolio/static/js/main.cecfa7f9.js",
+    "main.js": "/MyPortfolio/static/js/main.7db71e65.js",
     "static/js/453.acca0757.chunk.js": "/MyPortfolio/static/js/453.acca0757.chunk.js",
     "static/media/Phone3.png": "/MyPortfolio/static/media/Phone3.620ff202f044eea22d8d.png",
     "static/media/02.jpg": "/MyPortfolio/static/media/02.795d9ba66224f327dd83.jpg",
     "static/media/02-big.jpg": "/MyPortfolio/static/media/02-big.469badbb1259120f2ce9.jpg",
     "static/media/01.jpg": "/MyPortfolio/static/media/01.6021c7c3a2cdc893834a.jpg",
-    "static/media/Lebenslauf.pdf": "/MyPortfolio/static/media/Lebenslauf.db10bbcb1b63039cc5ce.pdf",
+    "static/media/Lebenslauf.pdf": "/MyPortfolio/static/media/Lebenslauf.1074d97590991aa6e3e5.pdf",
     "static/media/03-big.jpg": "/MyPortfolio/static/media/03-big.85213e332b9e0a0255a1.jpg",
     "static/media/01-big.jpg": "/MyPortfolio/static/media/01-big.40dcc811a9f0d5201172.jpg",
     "static/media/03.jpg": "/MyPortfolio/static/media/03.6d24152af7ad6c730729.jpg",
@@ -20,11 +20,11 @@
     "static/media/linkedIn.svg": "/MyPortfolio/static/media/linkedIn.c05a2ae5b158581b0f27510e1d79e379.svg",
     "index.html": "/MyPortfolio/index.html",
     "main.07f4bf31.css.map": "/MyPortfolio/static/css/main.07f4bf31.css.map",
-    "main.cecfa7f9.js.map": "/MyPortfolio/static/js/main.cecfa7f9.js.map",
+    "main.7db71e65.js.map": "/MyPortfolio/static/js/main.7db71e65.js.map",
     "453.acca0757.chunk.js.map": "/MyPortfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.07f4bf31.css",
-    "static/js/main.cecfa7f9.js"
+    "static/js/main.7db71e65.js"
   ]
 }
