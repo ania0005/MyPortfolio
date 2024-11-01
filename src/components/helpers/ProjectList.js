@@ -11,8 +11,8 @@ const projects = [
         skills: 'TypeScript, JavaScript, Java, Spring, MySQL, React',
         img: project01,
         imgBig: project01Big,
-        gitHubLink: "https://github.com/ania0005/Wishlist_project" ,
-        siteLink: "https://project-wishlist-giftlistify-ccqrj.ondigitalocean.app/"
+        gitHubLink: "https://github.com/ania0005/Wishlist_project" 
+        
     }, 
     {
         title: 'Cake Shop',
