@@ -6,21 +6,31 @@ import project02 from "./../../img/projects/02.jpg";
 import project02Big from "./../../img/projects/02-big.jpg";
 import project03 from "./../../img/projects/03.jpg";
 import project03Big from "./../../img/projects/03-big.jpg";
+import project04 from "./../../img/projects/04.jpg";
+import project04Big from "./../../img/projects/04-big.jpg";
 
 const projects = [
     {
-        title: 'Mini Projects',
+        title: 'Game',
         skills: 'JavaScript, React',
-        img: project001,
-        imgBig: project001Big,
-        gitHubLink: "https://github.com/ania0005/vite-myProject",
-        siteLink: "https://ania0005.github.io/vite-myProject/"
+        img: project01,
+        imgBig: project01Big,
+        gitHubLink: "https://github.com/ania0005/vite-myProject/tree/main/src/components/Game",
+        siteLink: "https://ania0005.github.io/vite-myProject/#/gameview"
+    },
+    {
+        title: 'Wetter',
+        skills: 'JavaScript, React',
+        img: project04,
+        imgBig: project04Big,
+        gitHubLink: "https://github.com/ania0005/vite-myProject/tree/main/src/components/Weather",
+        siteLink: "https://ania0005.github.io/vite-myProject/#/weather"
     },
     {
         title: 'Wishlist',
         skills: 'TypeScript, JavaScript, Java, Spring, MySQL, React',
-        img: project01,
-        imgBig: project01Big,
+        img: project001,
+        imgBig: project001Big,
         gitHubLink: "https://github.com/ania0005/Wishlist_project" 
         
     }, 
