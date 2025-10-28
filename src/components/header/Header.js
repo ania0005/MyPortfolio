@@ -1,5 +1,5 @@
 import styles from "./Header.module.css";
-import resume from "./Lebenslauf.pdf";
+import resume from "./lebenslauf1.pdf";
 
 const Header = () => {
   return (
