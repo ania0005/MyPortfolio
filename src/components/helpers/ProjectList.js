@@ -32,7 +32,7 @@ const projects = [
         img: project001,
         imgBig: project001Big,
         gitHubLink: "https://github.com/ania0005/Wishlist_project" 
-        siteLink: "https://ania0005.github.io/Wishlist_project_demo/"
+        siteLink: "https://ania0005.github.io/Wishlist_project_demo/#/"
     }, 
     {
         title: 'Cake Shop',
